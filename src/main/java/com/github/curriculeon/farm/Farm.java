@@ -10,6 +10,10 @@ public class Farm {
     private final Repository<ChickenCoop> chickenCoops;
     private final FarmHouse farmHouse;
 
+    public Farm() {
+        this(new Repository<>(), new Repository<>(), new FarmHouse());
+    }
+
     public Farm(Repository<HorseStable> stables, Repository<ChickenCoop> chickenCoops, FarmHouse farmHouse) {
         this.stables = stables;
         this.chickenCoops = chickenCoops;
