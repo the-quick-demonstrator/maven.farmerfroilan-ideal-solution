@@ -1,10 +1,11 @@
-package com.github.curriculeon.farm.utils;
+package com.github.curriculeon.collections;
 
 import java.util.Iterator;
 import java.util.List;
 
 public interface RepositoryInterface<EntityType> extends Iterable<EntityType> {
     List<EntityType> getEntityList();
+
     default boolean add(EntityType entity) {
         final boolean listChangedUponInsertion = getEntityList().contains(entity);
         getEntityList().add(entity);
@@ -25,7 +26,7 @@ public interface RepositoryInterface<EntityType> extends Iterable<EntityType> {
         try {
             getEntityList().add(index, newData);
             return true;
-        } catch(Throwable t) {
+        } catch (Throwable t) {
             return false;
         }
     }

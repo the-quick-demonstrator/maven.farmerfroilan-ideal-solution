@@ -1,4 +1,4 @@
-package com.github.curriculeon.farm.utils;
+package com.github.curriculeon.collections;
 
 import java.util.ArrayList;
 import java.util.List;

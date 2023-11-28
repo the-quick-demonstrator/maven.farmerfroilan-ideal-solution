@@ -1,6 +1,6 @@
 package com.github.curriculeon.farm.fields;
 
-import com.github.curriculeon.farm.EdibleInterface;
+import com.github.curriculeon.farm.utils.EdibleInterface;
 
 abstract public class AbstractCrop<EdibleType extends EdibleInterface> implements CropInterface<EdibleType> {
     private boolean isFertilized;

@@ -1,4 +1,4 @@
-package com.github.curriculeon.farm.utils;
+package com.github.curriculeon.collections;
 
 public class Repository<EntityType> extends AbstractRepository<EntityType> {
 }

@@ -3,7 +3,7 @@ package com.github.curriculeon.farm;
 import com.github.curriculeon.farm.animals.livestock.chicken.ChickenCoop;
 import com.github.curriculeon.farm.animals.livestock.horse.HorseStable;
 import com.github.curriculeon.farm.animals.people.FarmHouse;
-import com.github.curriculeon.farm.utils.Repository;
+import com.github.curriculeon.collections.Repository;
 
 public class Farm {
     private final Repository<HorseStable> stables;

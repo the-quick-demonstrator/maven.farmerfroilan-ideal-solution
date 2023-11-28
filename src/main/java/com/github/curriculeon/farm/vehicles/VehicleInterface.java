@@ -1,6 +1,6 @@
 package com.github.curriculeon.farm.vehicles;
 
-import com.github.curriculeon.farm.NoiseMakerInterface;
+import com.github.curriculeon.farm.utils.NoiseMakerInterface;
 import com.github.curriculeon.farm.animals.people.RiderInterface;
 
 public interface VehicleInterface<

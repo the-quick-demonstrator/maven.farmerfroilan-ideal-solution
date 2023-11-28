@@ -1,8 +1,7 @@
 package com.github.curriculeon.farm.animals;
 
-import com.github.curriculeon.farm.EdibleInterface;
-import com.github.curriculeon.farm.NoiseMakerInterface;
-import com.github.curriculeon.farm.animals.EaterInterface;
+import com.github.curriculeon.farm.utils.EdibleInterface;
+import com.github.curriculeon.farm.utils.NoiseMakerInterface;
 
 public interface AnimalInterface<
         EdibleType extends EdibleInterface>

@@ -1,4 +1,4 @@
-package com.github.curriculeon.farm;
+package com.github.curriculeon.farm.utils;
 
 import java.lang.reflect.ParameterizedType;
 import java.lang.reflect.Type;

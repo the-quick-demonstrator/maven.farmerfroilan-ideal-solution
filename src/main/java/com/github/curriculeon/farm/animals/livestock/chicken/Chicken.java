@@ -1,7 +1,7 @@
 package com.github.curriculeon.farm.animals.livestock.chicken;
 
 import com.github.curriculeon.farm.animals.AbstractAnimal;
-import com.github.curriculeon.farm.ProduceInterface;
+import com.github.curriculeon.farm.utils.ProduceInterface;
 import com.github.curriculeon.farm.fields.VegetableInterface;
 
 public class Chicken extends AbstractAnimal<VegetableInterface> implements ProduceInterface<ChickenEgg> {

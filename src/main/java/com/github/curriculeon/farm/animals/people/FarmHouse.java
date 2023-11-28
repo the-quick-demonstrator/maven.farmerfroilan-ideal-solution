@@ -1,6 +1,6 @@
 package com.github.curriculeon.farm.animals.people;
 
-import com.github.curriculeon.farm.utils.AbstractRepository;
+import com.github.curriculeon.collections.AbstractRepository;
 
 public class FarmHouse extends AbstractRepository<AbstractPerson> {
 }

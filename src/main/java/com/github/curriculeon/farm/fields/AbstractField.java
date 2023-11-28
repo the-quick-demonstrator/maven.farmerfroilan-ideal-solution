@@ -1,7 +1,7 @@
 package com.github.curriculeon.farm.fields;
 
-import com.github.curriculeon.farm.EdibleInterface;
-import com.github.curriculeon.farm.utils.AbstractRepository;
+import com.github.curriculeon.farm.utils.EdibleInterface;
+import com.github.curriculeon.collections.AbstractRepository;
 
 public abstract class AbstractField<
         EdibleType extends EdibleInterface,

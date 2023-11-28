@@ -1,6 +1,6 @@
 package com.github.curriculeon.farm.vehicles;
 
-import com.github.curriculeon.farm.FarmInterface;
+import com.github.curriculeon.farm.utils.FarmInterface;
 import com.github.curriculeon.farm.animals.people.RiderInterface;
 
 public interface FarmVehicle<

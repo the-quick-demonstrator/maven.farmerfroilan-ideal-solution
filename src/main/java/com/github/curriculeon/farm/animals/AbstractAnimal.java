@@ -1,6 +1,6 @@
 package com.github.curriculeon.farm.animals;
 
-import com.github.curriculeon.farm.EdibleInterface;
+import com.github.curriculeon.farm.utils.EdibleInterface;
 
 import java.util.ArrayList;
 import java.util.List;
