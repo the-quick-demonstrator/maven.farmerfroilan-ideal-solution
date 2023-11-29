@@ -7,5 +7,5 @@ public abstract class AbstractField<
         EdibleType extends EdibleInterface,
         CropType extends CropInterface<EdibleType>,
         CropRowType extends AbstractCropRow<CropType>>
-        extends AbstractRepository<CropType> {
+        extends AbstractRepository<CropRowType> {
 }

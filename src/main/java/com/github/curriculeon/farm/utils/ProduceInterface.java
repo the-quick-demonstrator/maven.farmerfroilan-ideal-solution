@@ -11,7 +11,7 @@ public interface ProduceInterface<EdibleType extends EdibleInterface> {
 
     default EdibleType yield() {
         try {
-            final Type superclass = getClass().getGenericSuperclass();
+            final Type superclass = this.getClass().getGenericSuperclass();
             final Type[] types = ((ParameterizedType) superclass).getActualTypeArguments();
             final String parameterizedTypeName = types[0].getTypeName();
             final Class<?> clazz = Class.forName(parameterizedTypeName);
