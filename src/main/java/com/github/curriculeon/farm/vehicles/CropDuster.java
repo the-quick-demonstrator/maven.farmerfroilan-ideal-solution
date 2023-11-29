@@ -1,9 +1,12 @@
 package com.github.curriculeon.farm.vehicles;
 
+import com.github.curriculeon.farm.animals.people.PilotInterface;
 import com.github.curriculeon.farm.fields.AbstractCropRow;
-import com.github.curriculeon.farm.animals.people.Farmer;
 
-public class CropDuster extends AbstractFarmVehicle<Farmer> implements AircraftInterface {
+public class CropDuster<
+        PilotType extends PilotInterface>
+        extends AbstractFarmVehicle<PilotType>
+        implements FlyableInterface<PilotType> {
     private int totalDistanceTraveled;
 
     public CropDuster() {
